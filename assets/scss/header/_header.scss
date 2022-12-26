@@ -26,10 +26,10 @@
     display: flex;
     align-items: start;
 
-    gap: 90px;
+    gap: 40px;
 
     @include xl {
-      gap: $gap-xl;
+      gap: $gap;
     }
 
     @include lg-min {

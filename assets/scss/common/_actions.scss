@@ -104,14 +104,14 @@
     }
 
     @include md {
-      font-size: $font-size-38;
+      font-size: $font-size-34;
     }
 
     @include xs {
       max-width: 350px;
       margin-bottom: 10px;
 
-      font-size: $font-size-33;
+      font-size: $font-size-30;
     }
 
     @media (max-width: 1350.8px) {

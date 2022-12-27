@@ -27,21 +27,17 @@
     align-items: start;
 
     gap: 40px;
-
     @include xl {
       gap: $gap;
     }
-
     @include lg-min {
       justify-content: space-between;
     }
-
     @include lg {
       justify-content: space-around;
 
       gap: $gap;
     }
-
     @include sm {
       gap: $gap-sm;
     }
@@ -65,7 +61,6 @@
     @include xl {
       margin-left: 40px;
     }
-
     @include md {
       margin-left: -72px;
     }
@@ -100,11 +95,9 @@
     @include xl {
       max-width: 520px;
     }
-
     @include lg {
       max-width: 350px;
     }
-
     @include md {
       max-width: 275px;
     }
